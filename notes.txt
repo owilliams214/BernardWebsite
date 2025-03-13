@@ -1,0 +1,15 @@
+Site will need
+
+Homepage
+Carousell to display images of previous events
+
+Spaces
+- show two different rooms
+
+Services
+- tell what types of events they cater to
+- tell what add on services are available
+
+Contact Us
+- show contact information and social media information. 
+

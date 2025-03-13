@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Hall Rentals</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100">
+
+  <!-- Navigation Bar -->
+  <nav class="text-black shadow-md">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+            <span class="sr-only">Open main menu</span>
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="text-xl font-bold text-black">
+            Event Hall Rentals
+          </div>
+        </div>
+        <div class="hidden sm:block sm:ml-6">
+          <div class="flex space-x-4">
+            <a href="#" class="text-black hover:text-white px-3 py-2 rounded-md text-lg">Home</a>
+            <a href="#about" class="text-black hover:text-white px-3 py-2 rounded-md text-lg">About</a>
+            <a href="#services" class="text-black hover:text-white px-3 py-2 rounded-md text-lg">Services</a>
+            <a href="#contact" class="text-black hover:text-white px-3 py-2 rounded-md text-lg">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="sm:hidden">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+      <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Home</a>
+      <a href="#about" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">About</a>
+      <a href="#services" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Services</a>
+      <a href="#contact" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base">Contact</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="bg-black text-white py-20 px-10 text-center">
+    <h1 class="text-4xl font-bold mb-4">Host Your Perfect Event Here</h1>
+    <p class="text-xl mb-6">Whether it's a wedding, party, or corporate event, our hall provides the perfect setting for any occasion.</p>
+    <a href="#contact" class="bg-yellow-500 text-gray-900 px-6 py-3 text-lg font-semibold rounded-md hover:bg-yellow-400">Book Now</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900">About Our Hall</h2>
+        <p class="text-lg text-gray-500 mt-4">We offer a spacious, modern venue for your events with professional staff and all the amenities you need.</p>
+      </div>
+      <div class="flex flex-wrap justify-center space-x-4">
+        <div class="w-full md:w-1/3 text-center">
+          <h3 class="text-xl font-semibold text-gray-900">Spacious</h3>
+          <p class="text-gray-600 mt-2">Our hall can accommodate up to 300 guests comfortably, with plenty of space for dancing, dining, and more.</p>
+        </div>
+        <div class="w-full md:w-1/3 text-center">
+          <h3 class="text-xl font-semibold text-gray-900">Modern Amenities</h3>
+          <p class="text-gray-600 mt-2">We offer state-of-the-art sound systems, lighting, and catering facilities to make your event spectacular.</p>
+        </div>
+        <div class="w-full md:w-1/3 text-center">
+          <h3 class="text-xl font-semibold text-gray-900">Professional Staff</h3>
+          <p class="text-gray-600 mt-2">Our team is dedicated to making your event seamless, offering support every step of the way.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">Our Services</h2>
+      <div class="flex flex-wrap justify-center gap-12">
+        <div class="w-full sm:w-1/3">
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">Event Planning</h3>
+            <p class="text-gray-600">We offer full event planning services, ensuring your event runs smoothly from start to finish.</p>
+          </div>
+        </div>
+        <div class="w-full sm:w-1/3">
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">Catering</h3>
+            <p class="text-gray-600">Choose from a variety of catering options, whether you're hosting a formal dinner or a casual buffet.</p>
+          </div>
+        </div>
+        <div class="w-full sm:w-1/3">
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">Entertainment</h3>
+            <p class="text-gray-600">From DJs to live bands, we offer entertainment packages to keep your guests engaged all night.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-black text-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+      <p class="text-lg mb-8">Ready to book your event or have a question? Contact us and let us make your event unforgettable.</p>
+      <a href="mailto:info@eventhall.com" class="bg-yellow-500 text-gray-900 px-6 py-3 text-lg font-semibold rounded-md hover:bg-yellow-400">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-8 text-center">
+    <p>&copy; 2025 Event Hall Rentals. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Mobile Menu Toggle
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
